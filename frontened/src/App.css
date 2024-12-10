@@ -1,0 +1,38 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #dc8787;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  color: #0f0101;
+  text-align: center;
+}
+
+h2 {
+  color: #1c10bd;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  width: 500px;
+  margin: 10px 0;
+}
+
+.joke {
+  margin-bottom: 20px;
+}
+
+.joke:last-child {
+  margin-bottom: 0;
+}
